@@ -6,6 +6,10 @@
 students = ["Megan", "Bob", "Mike"]
 # your code below
 
+students.each do |student|
+    require 'pry'; binding.pry
+    puts student
+end
 
 
 # Once you have your code written out:
